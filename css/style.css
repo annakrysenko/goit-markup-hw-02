@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --brand-color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(33, 33, 33, 1);
+  box-sizing: border-box;
+}
+
+[type='button'] {
+  cursor: pointer;
+}
+
+/* ------------------LOGO----------------------------- */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo span {
+  color: var(--brand-color);
+}
+
+/* ------------------lists and links-------------------- */
+
+.style-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.style-ul li {
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(33, 33, 33, 1);
+  margin: 0;
+  padding: 0;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--brand-color);
+}
+
+.current {
+  color: var(--brand-color);
+}
+
+/* ------------------HEADER---------------------------- */
+
+.header {
+  display: flex;
+  padding: 24px 0;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 2;
+  padding: 24px 215px;
+  border: 1px solid rgba(236, 236, 236, 1)
+}
+
+.header nav {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-right: 344px;
+}
+
+.header li:nth-child(2){
+  margin: 0 50px;
+}
+
+/* ---------------ORDER SERVICE---------------------------- */
+
+.order-service {
+  background-color: rgba(47, 48, 58, 1);
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.btn {
+  margin: 30 auto;
+  padding: 10px 32px;
+  border: none;
+
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  color: white;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0.53;
+}
+
+/* ---------------------ABOUT----------------- */
+.unvisible {
+  display: none;
+}
+
+.second-section {
+  padding-bottom: 0;
+}
+
+.about {
+  display: flex;
+}
+
+.about ul li {
+  justify-content: space-between;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.team {
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.team h2 {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.team li {
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team li:hover,
+.team li:focus {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* ------------------------------------------- */
+.block-size {
+  padding: 94px 215px;
+}
+
+.we-do-container.block-size h2,
+.team h2,
+.team h3,
+.team p {
+  display: flex;
+  justify-content: center;
+}
+
+.we-do-container h2 {
+  margin-top: 0;
+}
+
+.team p,
+.second-section p {
+  color: rgba(117, 117, 117, 1);
+}
+
+.h2 {
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+/* -------------FOOTER------------------ */
+
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 60px 215px;
+  letter-spacing: 0.03em;
+}
+
+.footer a {
+  color: white;
+  letter-spacing: 0.03em;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer [href^="mail"],
+.footer [href^="tel"]
+{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* ----------------PORFOLIO------------------ */
+
+.buttons {
+  justify-content: center;
+}
+
+.buttons [type="button"] {
+  margin: 0 4px 50px 4px;
+  background: #F5F4FA;
+  border-radius: 4px;   
+  line-height: 1.6;
+  font-weight: 500;
+  border: none;
+  padding: 6px 22px;
+}
+
+.buttons [type="button"]:hover,
+.buttons [type="button"]:focus {
+  background: var(--brand-color);
+  color: white;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.main-porfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 27px;
+  row-gap: 27px;
+}
+
+.main-porfolio h3{
+  font-weight: 700;
+  line-height: 2;
+  margin: 20px 24px 4px 24px;
+} 
+
+.main-porfolio p {
+  color: rgba(117, 117, 117, 1);
+  line-height: 1.8;
+  margin: 0 24px 20px 24px;
+}
+
+.main-porfolio li {
+  border: 1px solid rgba(238, 238, 238, 1);}
