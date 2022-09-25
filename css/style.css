@@ -1,0 +1,175 @@
+:root {
+  --brand-color: #2196f3;
+  --dark: rgba(33, 33, 33, 1);
+  --gray: rgba(117, 117, 117, 1);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark);
+  font-size: 16px;
+}
+
+[type='button'] {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.link {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+[href^='mail'],
+[href^='tel'],
+.style-ul p {
+  color: var(--gray);
+}
+
+[href^='mail']:hover,
+[href^='tel']:hover,
+[href^='mail']:focus,
+[href^='tel']:focus,
+.current,
+.logo span,
+.link:hover {
+  color: var(--brand-color);
+}
+
+.style-ul {
+  list-style: none;
+  font-style: normal;
+  ;
+}
+
+.h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.btn {
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  color: white;
+  background-color: var(--brand-color);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.second-section h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.second-section p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.team {
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.team li {
+  background-color: white;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team li:hover,
+.team li:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team h3 {
+  font-weight: 500;
+  line-height: 1.18;
+  font-size: 18px;
+}
+
+.team p {
+  line-height: 1.18;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.nav {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.71;
+}
+
+.unvisible {
+  display: none;
+}
+
+.button {
+  font-weight: 500;
+  line-height: 1.62;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  color: white;
+  background-color: var(--brand-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio p {
+  line-height: 1.87;
+}
+
+.footer, .first-section {
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.h1, .footer .logo, .footer [href^="http"] {
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer [href^='mail'],
+.footer [href^='tel'] {
+  background: rgba(255, 255, 255, 0.6);
+}
