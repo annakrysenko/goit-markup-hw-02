@@ -39,7 +39,8 @@ body {
 [href^='mail']:focus,
 [href^='tel']:focus,
 .current,
-.logo span {
+.logo span,
+.link:hover  {
   color: var(--brand-color);
 }
 
